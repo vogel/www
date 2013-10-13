@@ -61,6 +61,11 @@ a, p {
       border: 5px solid $link;
     }
   }
+
+  &.look__excerpt {
+    display: block;
+    height: 90px;
+  }
 }
 
 .look__image {
@@ -126,6 +131,7 @@ a, p {
   text-align: center;
   color: $link;
   text-decoration: none;
+  margin-bottom: 20px;
 
   &:hover, &:active {
     text-decoration: underline;

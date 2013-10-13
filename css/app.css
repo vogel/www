@@ -103,6 +103,9 @@ a, p {
   font-size: 14px; }
   a.look__image:hover, a.look__image:active, p.look__image:hover, p.look__image:active {
     border: 5px solid #b4007f; }
+  a.look__excerpt, p.look__excerpt {
+    display: block;
+    height: 90px; }
 
 .look__image {
   height: 200px;
@@ -148,7 +151,8 @@ a, p {
   width: auto;
   text-align: center;
   color: #b4007f;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-bottom: 20px; }
   .look__more:hover, .look__more:active {
     text-decoration: underline; }
 
