@@ -124,14 +124,17 @@ a, p {
 
 .look__gassyEyes {
   background-image: url("../img/gassyEyes.png");
-  background-size: 48px 47px;
+  background-size: 48px 94px;
   position: relative;
   top: -10px;
   margin: 0 0 -10px 0;
   width: 48px;
-  height: 47px; }
+  height: 47px;
+  display: block; }
   .look__gassyEyes.look__noEyes {
     background-image: none; }
+  .look__gassyEyes:hover, .look__gassyEyes:active {
+    background-position: 0px -47px; }
 
 .look__twitter {
   color: #0084b4;
