@@ -62,10 +62,6 @@ a, p {
     }
   }
 
-  &.look__excerpt {
-    display: block;
-    height: 90px;
-  }
 }
 
 .look__image {
@@ -130,7 +126,7 @@ a, p {
 
 .look__more {
   @extend %fontHeader;
-  font-size: 18px;
+  font-size: 24px;
   display: block;
   width: auto;
   text-align: center;

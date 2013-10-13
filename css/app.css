@@ -103,9 +103,6 @@ a, p {
   font-size: 14px; }
   a.look__image:hover, a.look__image:active, p.look__image:hover, p.look__image:active {
     border: 5px solid #b4007f; }
-  a.look__excerpt, p.look__excerpt {
-    display: block;
-    height: 90px; }
 
 .look__image {
   height: 200px;
@@ -149,7 +146,7 @@ a, p {
     text-decoration: underline; }
 
 .look__more {
-  font-size: 18px;
+  font-size: 24px;
   display: block;
   width: auto;
   text-align: center;
