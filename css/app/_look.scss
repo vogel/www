@@ -1,0 +1,80 @@
+body {
+  @extend %backgroundDirty;
+  line-height: 1.4rem;
+}
+
+header, footer {
+  @extend %backgroundNormal;
+  padding: 10px 0;
+}
+
+nav {
+  a {
+    font-size: 18px;
+    text-decoration: none;
+
+    &:hover, &:active {
+      color: $twitter;
+    }
+
+  }
+}
+
+article {
+  padding-bottom: 50px;
+}
+
+em, i {
+  @extend %fontItalic;
+}
+
+strong, b {
+  @extend %fontBold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend %fontHeader;
+  @extend %colorNormal;
+  @extend %fontNormal;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+}
+
+a, p {
+  @extend %fontContent;
+  @extend %colorNormal;
+  font-size: 14px;
+}
+
+.look__image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid $white;
+  outline: 1px solid $gray;
+  margin: 0px 1px;
+}
+
+.look__highlight {
+  @extend %colorHighlight;
+}
+
+.look__borderTop {
+  border-top: 1px solid $gray;
+}
+
+.look__borderBottom {
+  border-bottom: 1px solid $gray;
+}
+
+.look__gassyEyes {
+  background-image: url('../img/gassyEyes.png');
+  background-size: 48px 47px;
+  position: relative;
+  top: -10px;
+  margin: 0 0 -10px 0;
+  width: 48px;
+  height: 47px;
+}

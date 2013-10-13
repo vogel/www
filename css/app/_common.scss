@@ -1,0 +1,42 @@
+$highlight: #5acf70;
+$normal: #585858;
+$dirty: #f5f5f5;
+$white: #fafafa;
+$gray: #e4e4e4;
+$twitter: #0084B4;
+
+%fontContent {
+  font-family: 'PT Serif', serif;
+}
+
+%fontHeader {
+  font-family: 'Voltaire', sans-serif;
+}
+
+%fontBold {
+  font-weight: 700;
+}
+
+%fontNormal {
+  font-weight: 400;
+}
+
+%fontItalic {
+  font-style: italic;
+}
+
+%colorHighlight {
+  color: $highlight;
+}
+
+%colorNormal {
+  color: $normal;
+}
+
+%backgroundDirty {
+  background-color: $dirty;
+}
+
+%backgroundNormal {
+  background-color: $white;
+}
