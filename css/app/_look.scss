@@ -81,6 +81,11 @@ a, p {
   margin: 0 0 -10px 0;
   width: 48px;
   height: 47px;
+
+  &.look__noEyes {
+    background-image: none;
+  }
+
 }
 
 .look__twitter {
@@ -98,5 +103,13 @@ a, p {
 
   &:hover, &:active {
     text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    a {
+      font-size: 14px;
+    }
   }
 }

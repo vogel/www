@@ -117,6 +117,8 @@ a, p {
   margin: 0 0 -10px 0;
   width: 48px;
   height: 47px; }
+  .look__gassyEyes.look__noEyes {
+    background-image: none; }
 
 .look__twitter {
   color: #0084b4;
@@ -129,3 +131,7 @@ a, p {
   text-decoration: none; }
   .look__external:hover, .look__external:active {
     text-decoration: underline; }
+
+@media screen and (max-width: 480px) {
+  nav a {
+    font-size: 14px; } }
