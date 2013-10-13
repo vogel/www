@@ -2,9 +2,7 @@
 
 var app = {
         wojciak: {
-            items: {
 
-            }
         }
     },
     init = {

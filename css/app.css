@@ -74,6 +74,10 @@ body {
 header, footer {
   background-color: #fafafa; }
 
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
 body {
   line-height: 1.4rem; }
 
