@@ -1,3 +1,9 @@
+<?php
+require(dirname(__FILE__) . "/php/header.php");
+require(dirname(__FILE__) . "/php/footer.php");
+w_head("Red Saturday - Google's Penguin 2.1", "Google decided to roll out a major update to it's black-hat SEO banning algorithm. Read on about the magnitude of it's impact on the SEO industry.");
+?>
+
 <!DOCTYPE html>
 <html lang='pl' class='layout__full'>
 <head>
@@ -44,12 +50,12 @@
         <div class='look__image' style='background-image:url(img/01_red/penguin.jpg)'></div>
 
         <p><em>On October 5th the whole SEO industry held its breath and the owners of many
-            websites pulled their hair in disbelief as their sites vanished from Google's natural search results.
-            The culprit - the Penguin. Google decided to roll out a major update to it's black-hat SEO banning
-            algorithm. The update was officially announced on Twitter by Matt Cutts (<a
+                websites pulled their hair in disbelief as their sites vanished from Google's natural search results.
+                The culprit - the Penguin. Google decided to roll out a major update to it's black-hat SEO banning
+                algorithm. The update was officially announced on Twitter by Matt Cutts (<a
                     href="http://twitter.com/mattcutts" class="look__twitter">@mattcutts</a>), the lead of the
-            spam-fighting team announced that Penguin 2.1 will only affect about 1% of the search engine's results.
-            If you calculate that into absolute numbers - about 400 million web pages went down in ranks.</em></p>
+                spam-fighting team announced that Penguin 2.1 will only affect about 1% of the search engine's results.
+                If you calculate that into absolute numbers - about 400 million web pages went down in ranks.</em></p>
     </section>
     <section>
         <h2>Why is my website gone?</h2>
@@ -101,7 +107,9 @@
     </nav>
 </footer>
 
-<script type='text/javascript' src='js/app.js'></script>
+<?php
+w_foot();
+?>
 
 </body>
 
