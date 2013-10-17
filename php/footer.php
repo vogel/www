@@ -15,5 +15,5 @@ function f_analytics() {
   ga('create', 'UA-44935535-1', 'wojciak.com.pl');
   ga('send', 'pageview');
 
-</script>"
+</script>";
 }
