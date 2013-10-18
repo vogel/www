@@ -10,7 +10,7 @@ function w_head($title, $description)
 
     <title>" . $title . "</title>
     <meta name='description'
-          content='" . $description . "'/>
+          content=\"" . $description . "\"/>
 
     <meta name='format-detection' content='telephone=no'/>
     <meta name='viewport' content='width=device-width,user-scalable=no,initial-scale = 1.0'/>
