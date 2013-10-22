@@ -1,7 +1,7 @@
 <?php
 require(dirname(__FILE__) . "/php/header.php");
 require(dirname(__FILE__) . "/php/footer.php");
-w_head("How to detach a running process from a terminal", "I recently launched an app from a terminal and after few days of running I found it irritating to keep the terminal window - so I decided to detach it.");
+w_head("How to detach a running process from a terminal", "I recently launched an app from a terminal and after few days of running I've found it irritating to keep the terminal window - so I decided to detach it.");
 ?>
 
 <body class='layout__full'>
