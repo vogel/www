@@ -30,21 +30,18 @@ w_head("Wojciaks' Web Workshop", "Hi! It's nice to meet you! If you're intereste
 
 <article class='layout__1_2 layout__left'>
     <div class='layout__center'>
-        <h2 class='layout__textCenter'><a href="/ongamestart-2013" class='look__more'>OGS 2013</a></h2>
+        <h2 class='layout__textCenter'><a href="/detach-process-from-terminal" class='look__more'>Detach a running process</a></h2>
         <section>
-            <a href='/ongamestart-2013' class='look__image'
-               style='background-image:url(img/00_ogs/start.jpg)'></a>
+            <a href='/detach-process-from-terminal' class='look__image'
+               style='background-image:url(img/02_detach/terminal.jpg)'></a>
 
-            <p><em>To be honest I wasn’t planning on going to the OGS conference this year, but after winning a ticket
-                    for
-                    it in a contest organized by Adam Mazur (<a href="http://twitter.com/end3r"
-                                                                class="look__twitter">@end3r</a>)
-                    I’ve decided to go all-in and even took part in the workshops organized the day before the big
-                    event,
-                    and I
-                    must tell you - it was worth every single cent!</em>
+            <p><em>This is a simple and very effective way to detach a currently running process from a terminal. Don't by shy - read on :)</em>
             </p>
         </section>
+        <aside>
+            <h2>Wait - there's more!</h2>
+            <h3><a class='look__more look__moreSmall' href='/ongamestart-2013'>OGS 2013</a></h3>
+        </aside>
     </div>
 </article>
 

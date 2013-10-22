@@ -1,148 +1,158 @@
 html, body {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-  @extend %backgroundDirty;
-  line-height: 1.4rem;
+    @extend %backgroundDirty;
+    line-height: 1.4rem;
 }
 
 header, footer {
-  @extend %backgroundNormal;
-  padding: 10px 0;
+    @extend %backgroundNormal;
+    padding: 10px 0;
 }
 
 nav {
-  a {
-    font-size: 18px;
-    text-decoration: none;
+    a {
+        font-size: 18px;
+        text-decoration: none;
 
-    &:hover, &:active {
-      color: $twitter;
+        &:hover, &:active {
+            color: $twitter;
+        }
+
     }
-
-  }
 }
 
 article {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 em, i {
-  @extend %fontItalic;
+    @extend %fontItalic;
 }
 
 strong, b {
-  @extend %fontBold;
+    @extend %fontBold;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %fontHeader;
-  @extend %colorNormal;
-  @extend %fontNormal;
+    @extend %fontHeader;
+    @extend %colorNormal;
+    @extend %fontNormal;
 }
 
 h1 {
-  margin: 10px 0 30px 0;
+    margin: 10px 0 30px 0;
 }
 
 h2 {
-  margin: 30px 0 10px 0;
+    margin: 30px 0 10px 0;
 }
 
 a, p {
-  @extend %fontContent;
-  @extend %colorNormal;
-  font-size: 14px;
+    @extend %fontContent;
+    @extend %colorNormal;
+    font-size: 14px;
 
-  &.look__image {
-    &:hover, &:active {
-      border: 5px solid $link;
+    &.look__image {
+        &:hover, &:active {
+            border: 5px solid $link;
+        }
     }
-  }
 
+}
+
+aside {
+    border-top:1px solid $gray;
+    margin: 10px 0;
 }
 
 .look__image {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  border: 5px solid $white;
-  outline: 1px solid $gray;
-  margin: 0px 1px;
-  display: block;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid $white;
+    outline: 1px solid $gray;
+    margin: 0px 1px;
+    display: block;
 }
 
 .look__highlight {
-  @extend %colorHighlight;
+    @extend %colorHighlight;
 }
 
 .look__borderTop {
-  border-top: 1px solid $gray;
+    border-top: 1px solid $gray;
 }
 
 .look__borderBottom {
-  border-bottom: 1px solid $gray;
+    border-bottom: 1px solid $gray;
 }
 
 .look__gassyEyes {
-  background-image: url('../img/gassyEyes.png');
-  background-size: 48px 94px;
-  position: relative;
-  top: -10px;
-  margin: 0 0 -10px 0;
-  width: 48px;
-  height: 47px;
-  display: block;
+    background-image: url('../img/gassyEyes.png');
+    background-size: 48px 94px;
+    position: relative;
+    top: -10px;
+    margin: 0 0 -10px 0;
+    width: 48px;
+    height: 47px;
+    display: block;
 
-  &.look__noEyes {
-    background-image: none;
-  }
+    &.look__noEyes {
+        background-image: none;
+    }
 
-  &:hover, &:active {
-    background-position: 0px -47px;
-  }
+    &:hover, &:active {
+        background-position: 0px -47px;
+    }
 
 }
 
 .look__twitter {
-  color: $twitter;
-  text-decoration: none;
+    color: $twitter;
+    text-decoration: none;
 
-  &:hover, &:active {
-    text-decoration: underline;
-  }
+    &:hover, &:active {
+        text-decoration: underline;
+    }
 }
 
 .look__external {
-  color: $link;
-  text-decoration: none;
+    color: $link;
+    text-decoration: none;
 
-  &:hover, &:active {
-    text-decoration: underline;
-  }
+    &:hover, &:active {
+        text-decoration: underline;
+    }
 }
 
 .look__more {
-  @extend %fontHeader;
-  font-size: 24px;
-  display: block;
-  width: auto;
-  text-align: center;
-  color: $link;
-  text-decoration: none;
-  margin-bottom: 20px;
+    @extend %fontHeader;
+    font-size: 24px;
+    display: block;
+    width: auto;
+    text-align: center;
+    color: $link;
+    text-decoration: none;
+    margin-bottom: 20px;
 
-  &:hover, &:active {
-    text-decoration: underline;
-  }
+    &:hover, &:active {
+        text-decoration: underline;
+    }
+
+    &.look__moreSmall {
+        font-size: 18px;
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 480px) {
-  nav {
-    a {
-      font-size: 14px;
+    nav {
+        a {
+            font-size: 14px;
+        }
     }
-  }
 }

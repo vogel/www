@@ -48,10 +48,10 @@
   width: 16.6666666%; }
 
 a, p {
-  font-family: 'PT Serif', serif; }
+  font-family: "PT Serif", serif; }
 
 h1, h2, h3, h4, h5, h6, .look__more {
-  font-family: 'Voltaire', sans-serif; }
+  font-family: "Voltaire", sans-serif; }
 
 strong, b {
   font-weight: 700; }
@@ -104,6 +104,10 @@ a, p {
   a.look__image:hover, a.look__image:active, p.look__image:hover, p.look__image:active {
     border: 5px solid #b4007f; }
 
+aside {
+  border-top: 1px solid #e4e4e4;
+  margin: 10px 0; }
+
 .look__image {
   height: 200px;
   background-size: cover;
@@ -155,6 +159,9 @@ a, p {
   margin-bottom: 20px; }
   .look__more:hover, .look__more:active {
     text-decoration: underline; }
+  .look__more.look__moreSmall {
+    font-size: 18px;
+    text-align: left; }
 
 @media screen and (max-width: 480px) {
   nav a {

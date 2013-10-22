@@ -21,12 +21,15 @@ function w_head($title, $description)
           type='text/css'/>
 
     <link href='css/vendor/normalize-2.1.3.css' rel='stylesheet' media='all'/>
+    <link href='css/vendor/prism.css' rel='stylesheet' media='all'/>
+
     <link href='css/app.css' rel='stylesheet' media='all'/>
 
     <!--[if lt IE 9]>
     <script type='text/javascript' src='js/ie8/html5.js'></script>
     <![endif]-->
 
+    <script type='text/javascript' src='js/vendor/prism.js'></script>
     <script type='text/javascript' src='js/vendor/lithium-0.0.3.js'></script>
 
 </head>";
