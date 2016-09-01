@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/rpmalinowski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rkvalue.com
+  * I am rpmalinowski (https://keybase.io/rpmalinowski) on keybase.
+  * I have a public key ASDM_oZggOoLcq7aN7OrIO3r7hZNsYIm4Y8RgetA5eJxmgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120ccfe866080ea0b72aeda37b3ab20edebee164db18226e18f1181eb40e5e2719a0a",
+            "host": "keybase.io",
+            "kid": "0120ccfe866080ea0b72aeda37b3ab20edebee164db18226e18f1181eb40e5e2719a0a",
+            "uid": "6711b9ad6dba729351a04f2d1178a019",
+            "username": "rpmalinowski"
+        },
+        "service": {
+            "hostname": "rkvalue.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1472715431,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1472715373,
+        "hash": "bb165827248c95c19b0ab67d1e5e377b280f7544b667d98870bc921b7a6a4ed92f06808a7fdf1c7ab4aff5b80a4192ddc88af263e834bf42af183e9b88915048",
+        "seqno": 613516
+    },
+    "prev": "71700d2f4e3a1e687985505e17fd4b33c61ec32988642547efd9115f4e3bb461",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzP6GYIDqC3Ku2jezqyDt6+4WTbGCJuGPEYHrQOXicZoKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2NmZTg2NjA4MGVhMGI3MmFlZGEzN2IzYWIyMGVkZWJlZTE2NGRiMTgyMjZlMThmMTE4MWViNDBlNWUyNzE5YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2NmZTg2NjA4MGVhMGI3MmFlZGEzN2IzYWIyMGVkZWJlZTE2NGRiMTgyMjZlMThmMTE4MWViNDBlNWUyNzE5YTBhIiwidWlkIjoiNjcxMWI5YWQ2ZGJhNzI5MzUxYTA0ZjJkMTE3OGEwMTkiLCJ1c2VybmFtZSI6InJwbWFsaW5vd3NraSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoicmt2YWx1ZS5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3MjcxNTQzMSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDcyNzE1MzczLCJoYXNoIjoiYmIxNjU4MjcyNDhjOTVjMTliMGFiNjdkMWU1ZTM3N2IyODBmNzU0NGI2NjdkOTg4NzBiYzkyMWI3YTZhNGVkOTJmMDY4MDhhN2ZkZjFjN2FiNGFmZjViODBhNDE5MmRkYzg4YWYyNjNlODM0YmY0MmFmMTgzZTliODg5MTUwNDgiLCJzZXFubyI6NjEzNTE2fSwicHJldiI6IjcxNzAwZDJmNGUzYTFlNjg3OTg1NTA1ZTE3ZmQ0YjMzYzYxZWMzMjk4ODY0MjU0N2VmZDkxMTVmNGUzYmI0NjEiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDwGhk11I2x5WjtFQF8WvdS07tWCbLhmGXDH7YBnqoWVLGF0wiCo+i8mr7N2IW4HXoVkC8+whd1xf2XrAmxRYkAqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgfrSQ4p7lf3YvWktxQoE8bq+/iagAruspFbBHeNbAIV2jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rpmalinowski
+
+==================================================================
